@@ -1,26 +1,27 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.footer{
+   
+    width: 100%;
+    background-color: #938faa; /* Light gray background */
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.bgcolor {
+    background-color: #938faa; /* Light gray background */
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.header{
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    font-style: italic;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.bordertop{    
+    padding: 10px;
+    border-top: 10px solid rgb(81, 42, 151);
+}
+.textcoursename{
+    color:rgb(81, 42, 151);
+}
+.aboutsection{
+    background-color: #CFCADB;
+    padding: 20px;
 }
