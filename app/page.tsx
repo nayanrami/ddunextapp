@@ -4,6 +4,8 @@ import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
 import Courses from "./components/Courses";
 import AboutDDU from "./components/AboutDDU";
+import Reviews from "./components/Reviews";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
     <Navbar/>
     <Courses/>
     <AboutDDU/>
+    <Reviews/>
+    <Gallery/>
     <Footer/>
     </div>
   );
