@@ -6,12 +6,14 @@ import Courses from "./components/Courses";
 import AboutDDU from "./components/AboutDDU";
 import Reviews from "./components/Reviews";
 import Gallery from "./components/Gallery";
+import Slider from "./components/Slider";
 
 export default function Home() {
   return (
   <div>
     <Header/>
     <Navbar/>
+    <Slider/>
     <Courses/>
     <AboutDDU/>
     <Reviews/>

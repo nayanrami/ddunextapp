@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="footer">
-      <p className="m-10 text-white font-bold">
+      <p className="p-10 text-white font-bold">
         Disclaimer: D.D.U (Dental Dreams Unlocked) is not affiliated,
         associated, endorsed, or authorized in any way by the National Dental
         Examination Board of Canada (NDEB). The test names and other trademarks

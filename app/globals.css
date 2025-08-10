@@ -25,3 +25,25 @@
     background-color: #CFCADB;
     padding: 20px;
 }
+.aboutuslbl{
+    color: rgb(46, 14, 95);;
+    font-weight: bold;
+}
+.fullwidth{
+    width: 100%;
+}
+.teammembername{
+    color: rgb(81, 42, 151);
+    font-weight: bold;
+    border-bottom: 3px solid red;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+.teammemberdesignation{
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.teamtext{
+    padding: 0.8em;
+}
